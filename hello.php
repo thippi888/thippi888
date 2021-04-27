@@ -1,5 +1,5 @@
 <?php
-echo"hello-kato2";
+echo"hello-kato5";
 
 ?>
 
