@@ -1,0 +1,11 @@
+name: Access files
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  example-job:
+    steps:
+      - name: Run build script
+        run: ./.github/scripts/checkFirl.sh
+        shell: bash
