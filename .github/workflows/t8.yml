@@ -1,11 +1,14 @@
 name: Access files
 on:
   push:
-    branches: [ main ]
+    branches: [ develop ]
 
 jobs:
-  example-job:
+  build:
+    runs-on: ubuntu-latest
+
     steps:
+      - uses: actions/checkout@v2
       - name: Run build script
         run: ./.github/scripts/checkFirl.sh
         shell: bash
