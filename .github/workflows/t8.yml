@@ -1,7 +1,6 @@
 name: Access files
 on:
   push:
-    branches: [ develop ]
 
 jobs:
   build:
