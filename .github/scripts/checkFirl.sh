@@ -3,5 +3,7 @@
 FILE1="test.txt"
 
 if [ ! -e $FILE ]; then
-wget -o ./te.txt "https://raw.githubusercontent.com/thippi888/aws/main/test.txt"
+curl -o ./te.txt "https://raw.githubusercontent.com/thippi888/aws/main/test.txt"
+else
+curl -o ./te.txt "https://raw.githubusercontent.com/thippi888/aws/main/test.txt"
 fi
