@@ -1,0 +1,3 @@
+
+#コメント
+print "hello world"
