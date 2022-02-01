@@ -9,8 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run build script
-      - run: mkdir -p path/to/
-      - run: pwd
+        run: mkdir -p path/to/
         working-directory: path/to/
         
    
