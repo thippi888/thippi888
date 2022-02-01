@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - users: actions/checkout@v2
+      - user: actions/checkout@v2
       - name: Run build script
       - run: sh ./.github/checkFirl.sh
         shell: bash
