@@ -9,7 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run build script
-        run: mkdir -p path/to/
-        working-directory: path/to/
-        
+        run: curl -O  "https://raw.githubusercontent.com/thippi888/aws/main/test.txt"
    
