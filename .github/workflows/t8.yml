@@ -9,5 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run build script
-        run: sh ./.github/checkFirl.sh
+      - run: sh ./.github/checkFirl.sh
+        
    
