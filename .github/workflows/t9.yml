@@ -1,15 +1,16 @@
 name: Access files
-on:
-  push:
+on: push
 
 jobs:
   build:
+    name: Run build script
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
-      - name: Run build script
-        run: sh ./.github/checkFirl.sh
-        shell: bash
+      - name: run script
+        run: | #
+           curl -o ./te.txt "https://raw.githubusercontent.com/thippi888/aws/main/test.txt"
+  
         
    
